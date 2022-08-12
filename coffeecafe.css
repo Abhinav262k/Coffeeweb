@@ -1,0 +1,31 @@
+#ad{
+    background-color:rgba(84, 25, 25, 0.866);
+    color: white;
+    margin-top: 250px;
+    margin-left: 2px;
+    height: 200px;
+    
+}
+body{
+    background-image: url(./coffeecafe/coffe.jpg);
+    height: 535px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    display: block;
+    border-radius: 10px;
+
+}
+.logo :hover{
+  transition: all;
+  color: rgb(83, 30, 30);
+  transform: scale(1.1);
+}
